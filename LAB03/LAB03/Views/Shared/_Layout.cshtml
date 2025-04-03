@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Manh Hai - Official Store</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/LAB03.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold text-uppercase" asp-area="" asp-controller="Home" asp-action="Index">MANH HAI - Official Store</a>
+                <img src="/images/HUTECH.png" alt="Logo" style="height: 40px; width: 40px; border-radius: 50%; margin-right: 10px;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-semibold" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        @* <li class="nav-item"> *@
+                        @*     <a class="nav-link text-dark fw-semibold" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> *@
+                        @* </li> *@
+
+                        <!-- Quản lý sản phẩm, chỉ hiển thị với admin -->
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fw-semibold" asp-area="" asp-controller="Product" asp-action="Index">Quản lý Sản Phẩm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fw-semibold" asp-area="" asp-controller="OrderManagement" asp-action="Index">Quản lý Đơn Hàng</a>
+                            </li>
+                        }
+                    </ul>
+
+                    <!-- Hiển thị thông tin user -->
+                    <partial name="_LoginPartial" />
+
+                    <!-- Giỏ hàng -->
+                    <a href="/ShoppingCart/Index" class="btn btn-outline-dark position-relative">
+                        <i class="bi bi-cart-fill"></i> Cart
+                        <span id="cartCount" class="cart-count position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                              style="font-size: 0.8rem; padding: 0.2rem 0.5rem; top: -5px; right: -5px; transform: translate(50%, -50%); z-index: 1000; display: flex; justify-content: center; align-items: center;">
+                            @ViewBag.CartCount  <!-- Hiển thị số lượng giỏ hàng -->
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <p>&copy; 2025 Manh Hai - Official Store. All rights reserved.</p>
+            <p>Contact us: <a href="mailto:manhhaimiv@gmail.com">manhhaimiv@hutech.edu.vn</a></p>
+        </div>
+
+        <!-- Liên kết mạng xã hội -->
+        <div class="footer-social-links">
+            <a href="https://www.facebook.com/mhkieuuu" target="_blank" class="bi bi-facebook"> </a>
+            <a href="https://twitter.com/manhhaikieu" target="_blank" class="bi bi-twitter"> </a>
+            <a href="https://www.instagram.com/mh.kieuuu_" target="_blank" class="bi bi-instagram"> </a>
+        </div>
+
+        <!-- Bản quyền -->
+        <div class="footer-copyright">
+            <p>Follow us on social media for the latest updates and promotions.</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <!-- Script cập nhật giỏ hàng -->
+    <script>
+        $(document).ready(function() {
+            updateCartCount();
+
+            // Khi nhấn "Add to Cart"
+            $(".add-to-cart-btn").click(function() {
+                var productId = $(this).data("product-id");
+                var quantity = $(this).data("quantity");
+
+                $.ajax({
+                    url: "/ShoppingCart/AddToCartAjax",
+                    type: "POST",
+                    data: { productId: productId, quantity: quantity },
+                    success: function(response) {
+                        if (response.success) {
+                            alert(response.message);
+                            $("#cartCount").text(response.cartCount); // Cập nhật số lượng giỏ hàng
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function() {
+                        alert("Có lỗi xảy ra, vui lòng thử lại.");
+                    }
+                });
+            });
+
+            // Hàm cập nhật số lượng giỏ hàng từ session
+            function updateCartCount() {
+                $.ajax({
+                    url: "/ShoppingCart/GetCartCount",
+                    type: "GET",
+                    success: function(response) {
+                        $("#cartCount").text(response.cartCount);
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

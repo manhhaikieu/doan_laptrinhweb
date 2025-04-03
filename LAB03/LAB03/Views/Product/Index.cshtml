@@ -1,0 +1,67 @@
+﻿@model IEnumerable<LAB03.Models.Product>
+@if (User.IsInRole("Admin"))
+  {
+    <h2>Products</h2>
+
+            
+       
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Image</th>
+            <th>Actions</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.Description</td>
+                <td>@product.Category?.Name</td>
+                <td>
+                    <img src="@product.ImageUrl" alt="Product Image" style="width: 50px; height: 50px; object-fit: cover;">
+                </td> <!-- Hiển thị ảnh -->
+                <td>
+                    <a asp-action="Display" asp-route-id="@product.Id">View</a> |
+                    <a asp-action="Update" asp-route-id="@product.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+
+                </td>
+
+            </tr>
+        }
+        <div class="search-add-container" style="display: flex; align-items: center; gap: 10px;">
+            <a asp-action="Add" class="btn btn-success">➕ Thêm Sản Phẩm</a>
+
+            <form asp-action="Index" method="get" class="search-box" style="display: flex; align-items: center; gap: 5px;">
+                <input type="text" name="searchTerm" placeholder="Nhập tên sản phẩm..." value="@ViewBag.SearchTerm" class="form-control" style="width: 250px; padding: 10px;">
+                <button type="submit" class="btn btn-success" style="width: 150px; padding: 10px 15px;">🔍 Tìm kiếm</button>
+            </form>
+        </div>
+
+
+
+
+        <!-- Dropdown chọn cách sắp xếp -->
+        <form asp-action="Index" method="get" class="sort-form">
+            <label for="sortBy" class="sort-label">Sắp xếp:</label>
+            <select name="sortBy" id="sortBy" class="sort-select" onchange="this.form.submit()">
+                <option value="name_asc" selected="@(ViewBag.SortBy == "name_asc")">Tên từ A-Z</option>
+                <option value="name_desc" selected="@(ViewBag.SortBy == "name_desc")">Tên từ Z-A</option>
+                <option value="price_asc" selected="@(ViewBag.SortBy == "price_asc")">Giá tăng dần</option>
+                <option value="price_desc" selected="@(ViewBag.SortBy == "price_desc")">Giá giảm dần</option>
+            </select>
+        </form>
+
+    </tbody>
+</table>
+}

@@ -1,0 +1,47 @@
+﻿@model LAB03.Models.Order
+
+<div class="chitiethoadon">
+    <h2>Chi Tiết Đơn Hàng #@Model.Id</h2>
+
+    <h3>Sản phẩm:</h3>
+    <ul>
+        @foreach (var detail in Model.OrderDetails)
+        {
+            if (detail.Product != null)
+            {
+                <li>@detail.Product.Name - Số lượng: @detail.Quantity - Giá: @detail.Price.ToString("#,##0") VND</li> <!-- Định dạng giá -->
+            }
+            else
+            {
+                <li>Thông tin sản phẩm không có sẵn.</li>
+            }
+        }
+    </ul>
+
+    <p><strong>Ngày đặt:</strong> @Model.OrderDate.ToString("dd/MM/yyyy HH:mm:ss")</p>
+    <p><strong>Khách hàng:</strong> @Model.CustomerName</p>
+    <p><strong>Số ĐT Khách hàng:</strong> @Model.PhoneNumber</p>
+    <p><strong>Email Khách hàng:</strong> @Model.Email</p>
+    <p><strong>Tỉnh thành:</strong> @Model.City</p>
+    <p><strong>Quận/Huyện:</strong> @Model.District</p>
+    <p><strong>Địa chỉ giao hàng:</strong> @Model.ShippingAddress</p>
+    <p><strong>Ghi chú:</strong> @Model.Notes</p>
+    <p><strong>Tổng tiền:</strong> @Model.TotalPrice.ToString("#,##0") VND</p> <!-- Định dạng tổng tiền -->
+    <p><strong>Phương thức thanh toán:</strong> @Model.PaymentMethod.ToString()</p> 
+
+
+    <button class="btn btn-secondary mt-3" onclick="printInvoice()">🖨 In hóa đơn</button>
+</div>
+
+<script>
+    function printInvoice() {
+        var invoiceSection = document.querySelector(".chitiethoadon");
+        invoiceSection.style.display = "block"; // Hiển thị chi tiết hóa đơn
+
+        // In hóa đơn
+        window.print();
+
+        // Sau khi in, ẩn lại chi tiết hóa đơn
+        invoiceSection.style.display = "none";
+    }
+</script>

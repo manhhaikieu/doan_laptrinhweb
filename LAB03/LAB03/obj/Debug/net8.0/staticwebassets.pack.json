@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LAB03.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LAB03.uugm5h8grh.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\HUTECH.png",
+      "PackagePath": "staticwebassets\\images\\HUTECH.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\QRck.png",
+      "PackagePath": "staticwebassets\\images\\QRck.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\Thank-You-Emoji.png",
+      "PackagePath": "staticwebassets\\images\\Thank-You-Emoji.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\banhbonglan.png",
+      "PackagePath": "staticwebassets\\images\\banhbonglan.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\banhflan.jpg",
+      "PackagePath": "staticwebassets\\images\\banhflan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\banner.png",
+      "PackagePath": "staticwebassets\\images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\banner.webp",
+      "PackagePath": "staticwebassets\\images\\banner.webp"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\banner2.png",
+      "PackagePath": "staticwebassets\\images\\banner2.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\banner3.png",
+      "PackagePath": "staticwebassets\\images\\banner3.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\bestseller-icon.png",
+      "PackagePath": "staticwebassets\\images\\bestseller-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\boluclac.png",
+      "PackagePath": "staticwebassets\\images\\boluclac.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\bphone.png",
+      "PackagePath": "staticwebassets\\images\\bphone.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\burgerbo.png",
+      "PackagePath": "staticwebassets\\images\\burgerbo.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\cahoiapchao.png",
+      "PackagePath": "staticwebassets\\images\\cahoiapchao.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\cahoinuongtoi.png",
+      "PackagePath": "staticwebassets\\images\\cahoinuongtoi.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\camunuongmuoiot.png",
+      "PackagePath": "staticwebassets\\images\\camunuongmuoiot.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\cheesecake.png",
+      "PackagePath": "staticwebassets\\images\\cheesecake.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\coca-300ml-chai-nhua.jpg",
+      "PackagePath": "staticwebassets\\images\\coca-300ml-chai-nhua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\fanta.png",
+      "PackagePath": "staticwebassets\\images\\fanta.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\ganuongmatong.jpg",
+      "PackagePath": "staticwebassets\\images\\ganuongmatong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\garan.png",
+      "PackagePath": "staticwebassets\\images\\garan.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\garanngon.png",
+      "PackagePath": "staticwebassets\\images\\garanngon.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\goidudu.webp",
+      "PackagePath": "staticwebassets\\images\\goidudu.webp"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\khoaitaychien.png",
+      "PackagePath": "staticwebassets\\images\\khoaitaychien.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\khuyenmai.png",
+      "PackagePath": "staticwebassets\\images\\khuyenmai.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\khuyenmai1.png",
+      "PackagePath": "staticwebassets\\images\\khuyenmai1.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\mess-icon.png",
+      "PackagePath": "staticwebassets\\images\\mess-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\my_y.png",
+      "PackagePath": "staticwebassets\\images\\my_y.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\nemnuong.jpg",
+      "PackagePath": "staticwebassets\\images\\nemnuong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\pepsi.png",
+      "PackagePath": "staticwebassets\\images\\pepsi.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\phone-icon.png",
+      "PackagePath": "staticwebassets\\images\\phone-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\pizza.png",
+      "PackagePath": "staticwebassets\\images\\pizza.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\pizzahaisan.png",
+      "PackagePath": "staticwebassets\\images\\pizzahaisan.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\sting.png",
+      "PackagePath": "staticwebassets\\images\\sting.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\supnamhaisan.png",
+      "PackagePath": "staticwebassets\\images\\supnamhaisan.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\images\\zalo-icon.png",
+      "PackagePath": "staticwebassets\\images\\zalo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\TH_WEB\\LAB03\\LAB03\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LAB03.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LAB03.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LAB03.props",
+      "PackagePath": "build\\LAB03.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LAB03.props",
+      "PackagePath": "buildMultiTargeting\\LAB03.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LAB03.props",
+      "PackagePath": "buildTransitive\\LAB03.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

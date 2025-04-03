@@ -1,0 +1,28 @@
+﻿@model IEnumerable<LAB03.Models.Product>
+
+@foreach (var item in Model)
+{
+    <div class="col">
+        <div class="card h-100 shadow-sm">
+            <div class="position-relative">
+                <img src="@item.ImageUrl" class="card-img-top" alt="Product Image" style="height: 250px; object-fit: cover;">
+                @if (item.IsBestSeller == true)
+                {
+                    <img src="/images/bestseller-icon.png" alt="Best Seller" class="best-seller-icon">
+                }
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title fw-bold">@item.Name</h5>
+                <p class="card-text text-danger fw-semibold">@item.Price.ToString("#,##0") VND</p>
+            </div>
+            <div class="card-footer bg-white border-0 text-center">
+                <button class="btn btn-danger w-100 add-to-cart-btn" data-product-id="@item.Id" data-quantity="1">
+                    <i class="bi bi-cart-plus me-1"></i> Thêm vào giỏ
+                </button>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info w-100 mt-2">
+                    <i class="bi bi-eye me-1"></i> Xem chi tiết
+                </a>
+            </div>
+        </div>
+    </div>
+}

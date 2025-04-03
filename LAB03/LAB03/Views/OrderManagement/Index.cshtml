@@ -1,0 +1,51 @@
+﻿@model IEnumerable<LAB03.Models.Order>
+
+ @if (User.IsInRole("Admin")) 
+   { 
+<h2 class="tieudequanlydonhang">Quản Lý Danh Sách Đơn Hàng</h2>
+
+
+<!-- Bảng danh sách đơn hàng -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ngày Đặt</th>
+            <th>Khách Hàng</th>
+            <th>Số điện thoại</th>
+            <th>Tổng Tiền</th>
+            <th>Chi Tiết</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm:ss")</td> 
+                <td>@order.CustomerName</td>
+                <td>@order.PhoneNumber</td>
+                <td>@order.TotalPrice</td>
+                
+
+                <td>
+                    <a href="@Url.Action("Details", "OrderManagement", new { orderId = order.Id })">Xem chi tiết</a>
+                </td>
+                <td>
+                    <!-- Thêm các hành động như xóa hoặc chỉnh sửa -->
+                    
+                    <a href="@Url.Action("Delete", "OrderManagement", new { orderId = order.Id })" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa đơn hàng này?')">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    .tieudequanlydonhang {
+        text-align: center;
+        color: red
+    }
+</style>
+}

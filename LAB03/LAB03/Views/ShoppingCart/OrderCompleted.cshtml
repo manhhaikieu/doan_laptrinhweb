@@ -1,0 +1,41 @@
+﻿@model int
+@* <h2>Order Completed</h2> *@
+@* /<p>Your order with ID @Model has been placed successfully.</p> *@
+
+<div class="container text-center mt-5">
+    <!-- Tiêu đề thành công -->
+    <h1 class="text-success">Đặt hàng thành công!</h1>
+   
+    
+    <!-- Thông tin đơn hàng -->
+    <div>
+        <p>Đơn hàng của bạn với mã ID @Model đã được đặt thành công.</p>
+
+        <p>Đơn hàng của bạn đã được xử lý thành công và sẽ được giao trong vòng <strong>2-3 tiếng làm việc</strong>.</p>
+    </div>
+
+    <!-- Hiển thị thông tin chi tiết đơn hàng -->
+   
+
+    <!-- Thêm hình ảnh minh họa -->
+    <img src="~/images/Thank-You-Emoji.png" alt="Success" class="img-fluid mt-4" style="max-width: 200px; height: auto;" />
+
+
+    <!-- Mã giảm giá cho lần sau -->
+    <div class="alert alert-info mt-4">
+        <p>Nhận ngay <strong>10%</strong> giảm giá cho đơn hàng tiếp theo với mã: <strong>KIEUMANHHAI-HUTECH</strong></p>
+    </div>
+
+    <!-- Các nút hành động -->
+    <div class="d-flex justify-content-center mt-4">
+        <a href="@Url.Action("Index", "Home")" class="btn btn-primary me-2">Tiếp tục mua sắm</a>
+        @* <a href="tel:0345730673" class="btn btn-outline-primary">GỌI NGAY: 0345.730.673</a> *@
+    </div>
+ 
+
+</div>
+
+
+
+
+
